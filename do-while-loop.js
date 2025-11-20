@@ -1,17 +1,28 @@
-i = 1;
+// i = 1;
 
-do{
-    console.log(i);
-    1++;
+// do{
+//     console.log(i);
+//     1++;
 
-}while(i<=5);
+// }while(i<=5);
 
+// output = " ";
+// i = 5;
+
+// do{
+//     output += i + " ";
+//     i--;
+// }while(i>=1);
+
+// console.log(output);
+arr = [4,2,3];
+index = 0;
 output = " ";
-i = 5;
 
 do{
-    output += i + " ";
-    i--;
-}while(i>=1);
+    output += arr[index] + " ";
+    index++;
+}while(index < arr.length);
 
 console.log(output);
+
