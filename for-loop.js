@@ -1,12 +1,12 @@
-// for loop
-output = " ";
+// // for loop
+// output = " ";
 
-for (i = 10; i <= 5; i++) {
-    console.log
-    output += i + " ";
+// for (i = 10; i <= 5; i++) {
+//     console.log
+//     output += i + " ";
 
-}
-console.log(output);
+// }
+// console.log(output);
 // Arrays
 output = " ";
 arr = [1, 2, 3]
@@ -15,4 +15,3 @@ for (index = arr.length -1; index>=0; i--) {
     ouput += arr[index] + " ";
 }
 console.log(output);
-
