@@ -4,4 +4,14 @@ do{
     console.log(i);
     1++;
 
-}while(i<=5)
+}while(i<=5);
+
+output = " ";
+i = 5;
+
+do{
+    output += i + " ";
+    i--;
+}while(i>=1);
+
+console.log(output);
